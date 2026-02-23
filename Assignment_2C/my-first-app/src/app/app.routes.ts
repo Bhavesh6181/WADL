@@ -7,5 +7,5 @@ export const routes: Routes = [
   { path: '', component: RegisterComponent },   // 👈 Default page
   { path: 'login', component: LoginComponent },
   { path: 'profile', component: ProfileComponent }
-  { path: '**', redirectTo: '' }
+  
 ];
